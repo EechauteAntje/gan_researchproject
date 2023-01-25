@@ -40,4 +40,4 @@ Place the .h5 files in the map ‘files’.
 
 ### Notebook
 
-Go to the file ‘Generator.ipynb’ follow the notebook with explanations and create new music.
+Go to the file ‘Generator.ipynb’. Follow the notebook with explanations and create new music.
