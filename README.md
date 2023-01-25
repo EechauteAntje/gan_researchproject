@@ -1,11 +1,11 @@
 # gan_researchproject
 
-Download de modellen via deze link: https://drive.google.com/file/d/1WQqJB9r9KGWD4Pn9iRvs3ZRyY8sJFdIv/view?usp=share_link 
-Plaats de .h5 files in de map ‘files’.
+Download the models from this link: https://drive.google.com/file/d/1WQqJB9r9KGWD4Pn9iRvs3ZRyY8sJFdIv/view?usp=share_link 
+Place the .h5 files in the map ‘files’.
 
 ### Anaconda
 
-- Maak een nieuwe environment in anaconda.
+- Make a new environment in anaconda.
 
 ``` 
 conda create -n gan python=3.6
@@ -14,7 +14,7 @@ conda create -n gan python=3.6
 conda activate gan 
 ```
 
-- Installeer volgende packages
+- Install packages
 
 ``` 
 conda install -c anaconda cudatoolkit
@@ -40,4 +40,4 @@ pip install scikit-learn
 
 ### Notebook
 
-Ga naar de file ‘Generator.ipynb’ volg de notebook met uitleg en creëer nieuwe muziek.
+Go to the file ‘Generator.ipynb’ follow the notebook with explanations and create new music.
