@@ -7,36 +7,36 @@ Place the .h5 files in the map ‘files’.
 
 - Make a new environment in anaconda.
 
-``` 
-conda create -n gan python=3.6
-```
-```
-conda activate gan 
-```
+  ``` 
+  conda create -n gan python=3.6
+  ```
+  ```
+  conda activate gan 
+  ```
 
 - Install packages
 
-``` 
-conda install -c anaconda cudatoolkit
-```
-```
-conda install -c conda-forge cudnn
-```
-```
-pip install tensorflow==2.5
-```
-```
-pip install music21
-```
-```
-pip install imageio
-```
-```
-conda install matplotlib
-```
-```
-pip install scikit-learn 
-```
+  ``` 
+  conda install -c anaconda cudatoolkit
+  ```
+  ```
+  conda install -c conda-forge cudnn
+  ```
+  ```
+  pip install tensorflow==2.5
+  ```
+  ```
+  pip install music21
+  ```
+  ```
+  pip install imageio
+  ```
+  ```
+  conda install matplotlib
+  ```
+  ```
+  pip install scikit-learn 
+  ```
 
 ### Notebook
 
