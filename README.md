@@ -22,7 +22,6 @@ pip install music21
 pip install imageio
 conda install matplotlib
 pip install scikit-learn 
-
 ```
 
 ### Notebook
