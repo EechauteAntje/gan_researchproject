@@ -1,4 +1,4 @@
-# gan_researchproject
+# Generate music with this GAN model
 
 Download the models from this link: [download](https://drive.google.com/file/d/1WQqJB9r9KGWD4Pn9iRvs3ZRyY8sJFdIv/view?usp=share_link).
 
