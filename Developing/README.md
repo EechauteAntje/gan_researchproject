@@ -1,11 +1,12 @@
-## Trainen van het musegan model
+# How to train the models
+## Train a musegan model
 
-De dataset die wordt gebruikt is de weimar jazz database. Download de midifiles via deze link: [download](https://jazzomat.hfm-weimar.de/download/downloads/RELEASE2.0_mid_unquant.zip) 
-plaats de midi files in een map met de naam 'data'
+The dataset that is used is the weimar jazz database. Download the midifiles from this link: [download](https://jazzomat.hfm-weimar.de/download/downloads/RELEASE2.0_mid_unquant.zip) 
+place the midi files in a folder called 'data'.
 
 ### Anaconda
 
-- Maak een nieuw environment in anaconda.
+- Create a new environment in anaconda.
 
     ``` cmd
     conda create -n gan python=3.6
@@ -15,7 +16,7 @@ plaats de midi files in een map met de naam 'data'
     conda activate gan 
     ```
 
-- Installeer de packages
+- Install the packages
 
     ``` cmd
     conda install -c anaconda cudatoolkit
@@ -45,41 +46,43 @@ plaats de midi files in een map met de naam 'data'
     pip install scikit-learn 
     ```
 
-Clone deze github link: [download](https://github.com/EechauteAntje/researchproject.git)
+Clone the github link: [download](https://github.com/EechauteAntje/researchproject.git)
 
 ### Notebook
 
-Ga naar de file ‘musegan.ipynb’. Volg the notebook met uitleg and maak melodieën.
+Go to the file 'musegan.ipynb'. Follow the notebook with explanations and make melodies.
 
-## Trainen van het magenta model
+## Train the magenta model
 
-Magenta het aantal verschillende modellen. Bij dit project wordt het GANSynth model gebruikt. Met dit model gaan we een sound creëeren. Ik heb dit gedaan in Azure zodat ik andere model lokaal kon runnen.
+Magenta has a number of different models. In this project, the GANSynth model will be used. With this model, we are going to create a sound. I did this in Azure so that I could run the other model locally.
 
 ### Azure 
 
-1. Maak een nieuwe resource group.
-2. Maak een machine learning service aan.
-3. Open de azure machine learning studio.
-4. Maak een compute instance.
-5. Ga dan naar Notebooks.
+1. Create a new resource group.
+2. Create a machine learning service.
+3. Open the azure machine learning studio.
+4. Create a compute instance.
+5. Then go to Notebooks.
 
-Installeer eerst Magente en tensorflow_gan
+first install Magenta and tensorflow_gan
 ```cmd
 > pip install magenta
 > pip install tensorflow_gan
 ```
-De files die je nodig hebt vind je in de github repository in de map 'magenta'.
+The files you need can be found in the github repository in the folder 'magenta'.
 
-Plaats de folders en files in Azure.
-De structuur in azure ziet er dan als volgt uit:
+Place the folders and files in Azure.
+The structure in azure will then look like this:
+
 ![](https://i.imgur.com/v24mkmX.png)
 
 
-> In de map 'data' kan je jouw eigen samples plaatsen van leuke sounds. Plaats ze in '.wav' format en niet langer dan 4 seconden. Het model reageert het beste op sounds die constant zijn.
+> In the 'data' folder, you can put your own samples of sounds that you like. Place them in '.wav' format and they must not be longer than 4 seconds. The model responds best to sounds that are constant.
 
-Open de 'GAN.ipynb' file en volg de notebook met uitleg.
+Open the 'GAN.ipynb' fileand follow the notebook with explanation.
 
-Als alles vlot is verlopen moet de stuctuur in Azure er als volgt uitzien:
+If everything went smoothly, the stucture in Azure should look like this:
+
 ![](https://i.imgur.com/B6mljaR.png)
 
-In de map 'Generated' vind je jouw gegenereerde sounds of song.
+In the 'Generated' folder, you will find your generated sounds or song.
