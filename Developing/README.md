@@ -2,6 +2,7 @@
 ## Train a musegan model
 
 The dataset that were used are the weimar jazz database and Jazz ML ready midi dataset og Kaggle. Download the midifiles from this link: [Weimar](https://jazzomat.hfm-weimar.de/download/downloads/RELEASE2.0_mid_unquant.zip) , [Kaggle](https://www.kaggle.com/datasets/saikayala/jazz-ml-ready-midi/download?datasetVersionNumber=2)
+
 place the midi files in a folder called 'data'.
 
 ### Anaconda
