@@ -47,7 +47,6 @@ place the midi files in a folder called 'data'.
     pip install scikit-learn 
     ```
 
-Clone the github link: [download](https://github.com/EechauteAntje/researchproject.git)
 
 ### Notebook
 
