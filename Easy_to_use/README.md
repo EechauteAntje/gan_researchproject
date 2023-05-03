@@ -1,6 +1,6 @@
 # Generate music with this GAN model
 
-Download the models from this link: [download](https://drive.google.com/file/d/1WQqJB9r9KGWD4Pn9iRvs3ZRyY8sJFdIv/view?usp=share_link).
+Download the models from this link: [download](https://drive.google.com/drive/folders/10-S0SNllrL2Fub-Zz8szH9hTkeFeLZGL?usp=sharing).
 
 Place the .h5 files in the map ‘files’.
 
